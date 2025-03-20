@@ -1,0 +1,27 @@
+a = 15
+a *= 5
+print(a)   
+
+a = 15
+a -= 5
+print(a) 
+
+a = 15
+a += 5
+print(a) 
+
+a = 15
+a /= 5
+print(a) 
+
+a = 15
+a //= 5
+print(a) 
+
+a = 15
+a **= 5
+print(a) 
+
+a = 15
+a %= 5
+print(a) 
