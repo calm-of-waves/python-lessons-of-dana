@@ -1,0 +1,88 @@
+              #Formula bln ishlemek/ Working with formulas
+                #MESELE  p = 4 * a
+a = input('san girizin: ')
+a = int(a)
+p = 4 * a 
+print(p)
+
+                    #mesele N2   S = a ** 2
+a = input('bir san girizin we onun derejesi cykar: ')
+a = int(a)
+#ikinji gornusi
+# S = a ** 2
+S = math.pow(a,2)
+print(a,' taraply kwadradratyn meydany: ', S)
+
+#         Mesele N3   S = a*b
+# a = int(input('ucbuclugyn a tarapynyn bahasyny girizin: '))
+# b = int(input('ucbuclugyn b tarapynyn bahasyny girizin: '))
+# c = int(input('ucbuclugyn c tarapynyn bahasyny girizin: '))
+# S = a * b * c
+# print(S)
+
+                    # Mesele N4   S = 2 * ( a + b)
+# a = int(input('san giriz: '))
+# b = int(input('san giriz: '))
+# print('girizen sanlanyz shu formula boyunca ishleniler: S = 2 * ( a + b) ')
+# S = 2 * (a + b)
+# print('we jogaby: ', S)
+
+                    #mesele N5   l = pi*d
+# d = int(input('pi sany bln kopeltmek isleyan sanynyzy yazyn: '))
+# print(math.pi * d)
+ 
+        # Mesele N6
+# a = int(input('bir san girizin we onun kwadraty cykar: '))
+# #ikinji gornusi
+# V = a ** 3
+# V = math.pow(a,3)
+# print(a,' nyn kwadraty: ', V)
+
+
+                # Mesele N7   S = 6 * a2
+# a = int(input('san girizin: '))
+# print('girizen sanlanyz shu formula boyunca ishleniler: S = 6 * a2 ')
+# S = 6 * math.pow(a,2)
+# print('formulanyn jemi: ', S)
+
+
+# Mesele N8   V = a * b * c           S = 2 * (a * b + b * c + a * c)
+# a = int(input('ucbuclugyn a tarapynyn bahasyny girizin: '))
+# b = int(input('ucbuclugyn b tarapynyn bahasyny girizin: '))
+# c = int(input('ucbuclugyn c tarapynyn bahasyny girizin: '))
+# V = a * b * c
+# print('Formula V = a * b * c boyunca joagby: ', V)
+# S = 2 * (a * b + b * c + a * c)
+# print('Formula S = 2 * (a * b + b * c + a * c) boyunca joagby: ', S)
+
+                  # Mesele N9        L = 2 * pi * R            S = pi * R2
+# R = int(input('formula cozmek ucin san giriz: '))
+# L =  2 * math.pi * R
+# S = math.pi * math.pow(R,2)
+# print(L)
+# print(S)
+
+                # Mesele N10    (a + b) / 2
+# a = int(input('san giriz: '))
+# b = int(input('san giriz: '))
+# B = (a + b) / 2    # yada
+# print(B)
+# # print((a + b) / 2)
+
+                # Mesele N11   ⎷(a * b)
+# a = int(input('san giriz: '))
+# b = int(input('san giriz: '))
+# O = math.sqrt(a * b)
+# print(O)
+
+                    # Mesele N 12  
+d1 = int(input('D1-yn bahasyny girizin: '))
+d2 = int(input('D2-yn bahasyny girizin: '))
+multiply = math.pow(d1,2) * (d2,2)
+minus = math.pow(d1,2) - (d2,2)
+div = math.pow(d1,2) / (d2,2)
+plus = math.pow(d1,2) + (d2,2)
+print(multiply)
+print(minus)
+print(div)
+print(plus)
